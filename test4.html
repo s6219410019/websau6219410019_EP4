@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="game">
+    <meta name="description" content="pubg">
+    <meta name="author" conten="บร่าๆๆๆ";>
+    <title>IOT SAU 2021</title>
+    <link rel="shortcut icon" href="/images/im2.png" type="image/x-icon">
+</head>
+<body>
+    <h1>-- from tag--</h1>
+    <h2>ลงทะเบียนพนักงาน</h2>
+    <form action="" method="GET">
+        ชื่อ  <input type="text" name="emp_name" id="">
+         <br><br>
+        ปีเกิด <input type="number" name="emp_byear" id="">
+        <br><br>
+        รหัสผ่าน <input type="password" name="emp_pwd" id="">
+        <br><br>
+        วัน เดือน ปีเกิด <input type="date" name="emp_bday" id="">
+        <br><br>
+        วัน เวลา ทํางาน <input type="datetime-local" name="emp_dwork" id="">
+        <br><br>
+        เวลาเกิด <input type="time" name="emp_btime" id="">
+        <br><br>
+        เพศ
+        <!--radio ต้องเลือก และเลิอกได้แค่1-->
+        <input type="radio" name="emp_sex" id="" value="ชาย">ชาย
+        <input type="radio" name="emp_sex" id=""value="f">หญิง
+        <input type="radio" name="emp_sex" id="" checked value="999">ทางเลือก
+        <br><br>
+        การศึกษาสูงสุด
+        <!--  select/option ต้องเลือก1 . เลือกได้แค่ 1 2. เลือกได้มากกว่า1-->
+        <select name="emp_educate" id="">
+           <option value="ตรี">ปริญญาตรี</option>
+           <option value="โท">ปริญญาโท</option>
+           <option value="เอก">ปริญญาเอก</option>
+
+
+        </select>
+        <br><br>
+        คํานําหน้า
+        <select name="emp_tittle" id="" size="3">
+            <option value="1">ด.ช</option>
+            <option value="2">ด.ช</option>
+            <option value="3">นาย</option>
+            <option value="4">นาง</option>
+            <option value="5">นางสาว</option>
+
+
+
+
+        </select>
+        <br><br>
+        <select name="emp_drink" id="" size="4" multiple>
+            <option value="นํ้าส้ม">นํ้าส้ม</option>
+            <option value="กาแฟ">กาแฟ</option>
+            <option value="ชา">ชา</option>
+            <option value="นํ้าแดง">นํ้าแดง</option>
+            <option value="โค๊ก">โค๊ก</option>
+        </select>
+        <br><br>
+        เครื่องดื่มที่ชอบ2
+        <input type="checkbox" name="emp_drink1" id=""value="นํ้าส้ม">นํ้าส้ม
+        <input type="checkbox" name="emp_drink2" id=""value="กาแฟ">กาแฟ
+        <input type="checkbox" name="emp_drink3" id=""value="ชา">ชา
+        <input type="checkbox" name="emp_drink4" id=""value="นํ้าแดง">นํ้าแดง
+        <input type="checkbox" name="emp_drink5" id=""value="โต๊ก">โต๊ก
+        <input type="checkbox" name="emp_drink6" id=""value="แฟนต้า">แฟนต้า
+        <br><br>
+        เลือกไฟล์งาน
+        <input type="file" name="emp_files" id="" accept="image/*c">
+        หมายเหตุ <textarea name="emp_note" id="" cols="20" rows="5git"></textarea>
+        <br><br>
+        <input type="submit" value="">
+        <input type="reset" value="">
+        <button>บันทึก save</button>
+
+
+
+    </form>
+</body>
+</html>
